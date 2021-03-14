@@ -6,7 +6,7 @@ D=$(date +%d)
  
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-GitRep="git-diary"
+GitRep="my-diary"
  
 HomeDir="/home/ubuntu"
 GitDir="$HomeDir/$GitRep"
@@ -15,7 +15,7 @@ FileNm="$Ymd".md
  
 mkdir -p $FileDir
  
-echo "### $Ymd 일기" >> $FileDir/$FileNm
+echo "### $Ymd 코드일기" >> $FileDir/$FileNm
  
 cd $GitDir
 git add
